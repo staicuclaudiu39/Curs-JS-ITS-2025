@@ -78,16 +78,30 @@
 // function substract(a, b) {
 //   return a - b;
 // }
-console.log(
-  applyOperator(1, 2, function (a, b) {
-    return a + b;
-  })
-);
-console.log(
-  applyOperator(1, 2, function (a, b) {
-    return a - b;
-  })
-);
+// console.log(
+//   applyOperator(1, 2, function (a, b) {
+//     return a + b;
+//   })
+// );
+// console.log(
+//   applyOperator(1, 2, function (a, b) {
+//     return a - b;
+//   })
+// );
 
-console.log(applyOperator(1, 2, (a, b) => a + b));
-console.log(applyOperator(1, 2, (a, b) => a * b));
+// console.log(applyOperator(1, 2, (a, b) => a + b));
+// console.log(applyOperator(1, 2, (a, b) => a * b));
+
+// async function test() {
+//   return 5;
+// }
+
+// async function test2() {
+//   console.log(await test());
+// }
+
+// console.log(test2());
+
+// test().then((value) => {
+//   console.log(value);
+// });
